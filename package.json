@@ -1,0 +1,24 @@
+{
+  "name": "ai-agent-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "pnpmのworkspace構成のプロジェクト",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format",
+    "clean": "pnpm -r clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@biomejs/biome": "^1.4.0"
+  }
+}
